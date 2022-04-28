@@ -1,0 +1,9 @@
+version: "2"
+services:
+  rce:
+    build: .
+    container_name: rce
+    environment:
+      - DOCKER=1
+    ports:
+      - "3112:3112"

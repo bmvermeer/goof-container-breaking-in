@@ -1,0 +1,23 @@
+{
+  "name": "goof-container-breaking-in",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Liran Tal",
+    "email": "liran.tal@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^2.7.1",
+    "fastify-multipart": "^1.0.2",
+    "fastify-static": "^2.5.0",
+    "pino-pretty": "^3.2.0",
+    "pump": "^3.0.0"
+  }
+}
